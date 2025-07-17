@@ -4,8 +4,8 @@
 This project implements a deep learning model to classify handwritten digits (0–9) from the MNIST dataset using TensorFlow/Keras. The model includes data preprocessing, a neural network with batch normalization and dropout, training with validation, and performance visualization.
 
 # Requirements
-Dataset: MNIST dataset loaded via tensorflow.keras.datasets.mnist.
-Libraries: TensorFlow, NumPy, Matplotlib, Seaborn.
+. Dataset: MNIST dataset loaded via tensorflow.keras.datasets.mnist.
+. Libraries: TensorFlow, NumPy, Matplotlib, Seaborn.
 
 # Project Structure
 1. Dataset Loading:
