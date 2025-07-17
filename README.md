@@ -11,23 +11,26 @@ This project implements a deep learning model to classify handwritten digits (0�
 1. Dataset Loading:
 Loads MNIST dataset: 60,000 training and 10,000 test images (28x28 pixels).
 2. Preprocessing:
-Normalizes pixel values to [0, 1].
-Flattens images to 784-dimensional vectors.
-Converts labels to one-hot encoded format.
+  Normalizes pixel values to [0, 1].
+  Flattens images to 784-dimensional vectors.
+  Converts labels to one-hot encoded format.
 3. Model Architecture:
-Sequential model with three hidden layers (256, 128, 64 units).
-BatchNormalization applied before ReLU activation in each hidden layer.
-Dropout (0.3, 0.3, 0.2) for regularization.
-Output layer: 10 units with softmax activation.
-4. Training:
+ I. Sequential model with three hidden layers (256, 128, 64 units).
+
+II. BatchNormalization applied before ReLU activation in each hidden layer.
+
+III. Dropout (0.3, 0.3, 0.2) for regularization.
+
+IV. Output layer: 10 units with softmax activation.
+5. Training:
 Compiled with adam optimizer and categorical_crossentropy loss.
 Trained for 15 epochs, batch size 128, with 20% validation split.
-5. Visualization:
+6. Visualization:
 Plots training vs. validation accuracy and loss over epochs.
 Figure size adjusted to figsize=(18, 5) for wider x-axis.
 Y-axis limits set for balanced visualization (accuracy: 0–1, loss: dynamic range).
 Displays five test images with predicted and true labels.
-6. Evaluation:
+7. Evaluation:
 Reports test accuracy and loss.
 Typical test accuracy: ~97–98%.
 
