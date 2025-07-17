@@ -40,9 +40,9 @@ Typical test accuracy: ~97–98%.
 5. Share the notebook with “Anyone can view” permission.
 
 # Notes
-BatchNormalization: Applied before ReLU activation for stable training.
-Visualization: Wider figure size ensures longer x-axis for both accuracy and loss plots.
-Troubleshooting: Use GPU runtime for faster training. Adjust epochs or dropout if accuracy is low.
+I. BatchNormalization: Applied before ReLU activation for stable training.
+II. Visualization: Wider figure size ensures longer x-axis for both accuracy and loss plots.
+III. Troubleshooting: Use GPU runtime for faster training. Adjust epochs or dropout if accuracy is low.
 
 # Output
-Preprocessing details, training logs, accuracy/loss plots, test accuracy/loss, and example predictions.
+  Preprocessing details, training logs, accuracy/loss plots, test accuracy/loss, and example predictions.
